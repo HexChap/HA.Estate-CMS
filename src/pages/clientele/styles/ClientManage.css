@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.ant-form-item-label>label {
+    /*font-size: 1.2rem !important;*/
+}
+
+/*.ant-form-item-label>label[for="root__title"] {*/
+/*    font-size: 1.5rem !important;*/
+/*}*/
+
+.ant-checkbox-wrapper-in-form-item > span {
+    /*font-size: 1.1rem !important;*/
+}
+
+.ant-btn-submit {
+    margin: auto !important;
+}
+
+fieldset {
+    background-color: white;
+    border-color: transparent;
+}

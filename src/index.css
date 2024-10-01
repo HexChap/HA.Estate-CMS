@@ -1,0 +1,17 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+  
+body {
+    background-color: antiquewhite;
+}
+
+span {
+    /*font-size: 1.1rem !important;*/
+}
+
+.ant-btn {
+    /*padding: 1.2rem 2rem;*/
+}
