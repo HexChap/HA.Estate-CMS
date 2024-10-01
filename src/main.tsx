@@ -13,6 +13,8 @@ import ClientCreate from './pages/clientele/Client.tsx';
 import './index.css'
 import { store } from "./stores";
 
+import "./i18n.ts"
+
 const router = createBrowserRouter([
   {
     path: "/",

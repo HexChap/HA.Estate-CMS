@@ -1,0 +1,28 @@
+{
+  "openClientCreate": "Нов клиент",
+  "openClientUpdate": "Актуализирай клиент",
+  "client": {
+    "name": "Име",
+    "surname": "Фамилия",
+    "patronymic": "Бащино име",
+    "typeLabel": "Тип клиент",
+    "phoneNo": "Телефонен номер",
+    "email": "Имейл",
+    "birthDate": "Дата на раждане",
+    "birthLocation": "Място на раждане",
+    "currRegAddress": "Настоящ адрес на регистрация",
+    "tgUsername": "Потребителско име в Telegram",
+    "type": {
+      "seller": "Продавач",
+      "buyer": "Купувач"
+    }
+  },
+  "table": {
+    "btnDelete": "Изтрий",
+    "btnUpdate": "Актуализирай",
+    "action": "Действие"
+  },
+  "error": {
+    "required": "Това поле е задължително."
+  }
+}

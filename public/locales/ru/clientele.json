@@ -1,0 +1,28 @@
+{
+  "openClientCreate": "Новый клиент",
+  "openClientUpdate": "Изменить клиента",
+  "client": {
+    "name": "Имя",
+    "surname": "Фамилия",
+    "patronymic": "Отчество",
+    "typeLabel": "Тип клиента",
+    "phoneNo": "Номер телефона",
+    "email": "Электронная почта",
+    "birthDate": "Дата рождения",
+    "birthLocation": "Место рождения",
+    "currRegAddress": "Адрес текущей регистрации",
+    "tgUsername": "Юзернейм Телеграм",
+    "type": {
+      "seller": "Продавец",
+      "buyer": "Покупатель"
+    }
+  },
+  "table": {
+    "btnDelete": "Удалить",
+    "btnUpdate": "Изменить",
+    "action": "Действия",
+  },
+  "error": {
+    "required": "Это поле обязательно."
+  }
+}

@@ -10,7 +10,6 @@ export type ClientSchema = {
   phone_no: string
   email: string
   preferences_id?: number | null
-  rus_passport_id?: number | null
 }
 
 export type ClientSchemaStored = Partial<ClientSchema> & {
@@ -19,9 +18,8 @@ export type ClientSchemaStored = Partial<ClientSchema> & {
   created_at: string
 }
 
-export type ClientSchemaFetched = Omit<ClientSchemaStored, "preferences_id"|"rus_passport_id"> & {
+export type ClientSchemaFetched = Omit<ClientSchemaStored, "preferences_id"> & {
   preferences: {[key: string]: unknown} | null
-  rus_passport: {[key: string]: unknown} | null
 }
 
 export type ClientSchemaCreate = Partial<ClientSchema> & Pick<ClientSchema, 'surname'>

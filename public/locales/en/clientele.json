@@ -1,0 +1,28 @@
+{
+  "openClientCreate": "New Client",
+  "openClientUpdate": "Update Client",
+  "client": {
+    "name": "Name",
+    "surname": "Surname",
+    "patronymic": "Patronymic",
+    "typeLabel": "Client type",
+    "phoneNo": "Phone number",
+    "email": "Email",
+    "birthDate": "Birth date",
+    "birthLocation": "Birth location",
+    "currRegAddress": "Current registration address",
+    "tgUsername": "Telegram username",
+    "type": {
+      "seller": "Seller",
+      "buyer": "Buyer"
+    }
+  },
+  "table": {
+    "btnDelete": "Delete",
+    "btnUpdate": "Update",
+    "action": "Action"
+  },
+  "error": {
+    "required": "This field is required."
+  }
+}
